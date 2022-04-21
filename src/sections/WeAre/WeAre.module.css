@@ -1,0 +1,51 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "place1 place2"
+    "place3 place4";
+}
+.place1 {
+  grid-area: place1;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}
+.place2 {
+  grid-area: place2;
+  border-bottom: 1px solid;
+  padding-left: 15px;
+}
+.place3 {
+  grid-area: place3;
+  border-right: 1px solid;
+}
+.place4 {
+  grid-area: place4;
+  padding-left: 15px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .top {
+    padding-top: 1580px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
