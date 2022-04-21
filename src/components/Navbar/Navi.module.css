@@ -1,0 +1,23 @@
+.navlinks a {
+  color: gray !important;
+}
+.navlinks a:active,
+.navlinks a:hover {
+  color: white !important;
+}
+
+.search {
+  margin-left: -40px;
+  background-color: transparent;
+  color: gray;
+}
+.search:hover {
+  margin-left: -40px;
+  background-color: transparent;
+  color: gray;
+}
+.search:focus {
+  margin-left: -40px;
+  background-color: transparent;
+  color: gray;
+}
