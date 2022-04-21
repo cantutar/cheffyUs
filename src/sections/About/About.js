@@ -5,7 +5,7 @@ function About(props) {
   return (
     <>
       <Wrapper>
-        <div className="container">
+        <div className="container pt-5 py-5">
           <div className="row">
             <div className="col-md-6">
               <h1 className="display-1">
@@ -25,7 +25,7 @@ function About(props) {
                 ratione omnis optio minus minima sapiente recusandae autem.
               </p>
               <a href="/home" className="text-dark text-decoration-none">
-                Learn More about it <i class="fa fa-arrow-right" />
+                Learn More about it <i className="fa fa-arrow-right" />
               </a>
             </div>
             <div className="col-md-6">

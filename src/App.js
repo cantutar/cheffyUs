@@ -1,6 +1,11 @@
 import Navi from "./components/Navbar/Navi";
-import About from "./sections/About/About";
-import Hero from "./sections/Hero/Hero";
+// import Wrapper from "./components/Wrapper/Wrapper";
+import About from "./Sections/About/About";
+import Explore from "./Sections/Explore/Explore";
+import Hero from "./Sections/Hero/Hero";
+import Room from "./Sections/Rooms/Rooom";
+
+//TODO UPGRADE ICONS TO 6
 
 function App() {
   return (
@@ -8,6 +13,8 @@ function App() {
       <Navi />
       <Hero />
       <About />
+      <Explore />
+      <Room />
     </div>
   );
 }

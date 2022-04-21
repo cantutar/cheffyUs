@@ -4,7 +4,7 @@ import "./Hero.css";
 export default function Hero(props) {
   return (
     <>
-      <section className="vh-100">
+      <section className="vh-100" style={{ marginBottom: "200px" }}>
         <div
           className={`${classes.Hero} d-flex justify-content-center align-items-center`}
         >
