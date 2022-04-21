@@ -1,0 +1,16 @@
+.baseImage {
+  position: absolute;
+  z-index: 0;
+}
+.secondImage {
+  position: absolute;
+  z-index: 1;
+  margin-top: 500px;
+  margin-left: -100px;
+}
+.topImage {
+  position: relative;
+  z-index: 2;
+  margin-top: 650px;
+  margin-left: 150px;
+}
