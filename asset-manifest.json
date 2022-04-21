@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheffy/static/css/main.a61976ad.css",
-    "main.js": "/cheffy/static/js/main.36376b12.js",
+    "main.css": "/cheffy/static/css/main.e3ca3190.css",
+    "main.js": "/cheffy/static/js/main.c8aa9e42.js",
     "static/js/27.898604f6.chunk.js": "/cheffy/static/js/27.898604f6.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/cheffy/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/cheffy/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -11,7 +11,7 @@
     "index.html": "/cheffy/index.html"
   },
   "entrypoints": [
-    "static/css/main.a61976ad.css",
-    "static/js/main.36376b12.js"
+    "static/css/main.e3ca3190.css",
+    "static/js/main.c8aa9e42.js"
   ]
 }
