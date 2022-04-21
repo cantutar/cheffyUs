@@ -1,4 +1,17 @@
 export default function RoomCard(props) {
+  Array(6).fill(
+    <>
+      <input
+        type="checkbox"
+        className="btn-check"
+        id="btncheck1"
+        autoComplete="off"
+      />
+      <label className="btn btn-outline-secondary" htmlFor="btncheck1">
+        Checkbox 1
+      </label>
+    </>
+  );
   return (
     <>
       <div className="col-md-4">
@@ -60,6 +73,15 @@ export default function RoomCard(props) {
               />
               <label className="btn btn-outline-secondary" htmlFor="btncheck5">
                 Checkbox 5
+              </label>
+              <input
+                type="checkbox"
+                className="btn-check"
+                id="btncheck6"
+                autoComplete="off"
+              />
+              <label className="btn btn-outline-secondary" htmlFor="btncheck5">
+                Checkbox 6
               </label>
             </>
             <div className="row pt-2">

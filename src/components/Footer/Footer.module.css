@@ -1,0 +1,17 @@
+.navItem {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+
+.facebook:hover {
+  color: #2f55a4 !important;
+}
+.twitter:hover {
+  color: #1da1f2 !important;
+}
+.instagram:hover {
+  color: #833ab4 !important;
+}
+.linked:hover {
+  color: #0072b1 !important;
+}
