@@ -26,7 +26,12 @@ export default function Navi(props) {
           <Navbar.Brand href="#" className="text-white mx-5">
             Metoospace
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle
+            aria-controls="navbarScroll"
+            onClick={() => {
+              setNavbarScrolled((prev) => !prev);
+            }}
+          />
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className={`me-auto my-2 my-lg-0 ${classes.navlinks}`}

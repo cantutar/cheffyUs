@@ -1,16 +1,123 @@
-.baseImage {
-  position: absolute;
-  z-index: 0;
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .baseImage {
+    position: absolute;
+    width: auto;
+    height: 50vh;
+    z-index: 0;
+  }
+  .secondImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 25vh !important;
+    margin-left: -15vw !important;
+    width: auto;
+    height: 35vh;
+  }
+  .topImage {
+    position: relative;
+    width: auto;
+    height: 25vh;
+    z-index: 2;
+    margin-top: 30vh !important;
+    margin-left: 130px !important;
+  }
 }
-.secondImage {
-  position: absolute;
-  z-index: 1;
-  margin-top: 500px;
-  margin-left: -100px;
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .baseImage {
+    position: absolute;
+    width: auto;
+    height: 50vh;
+    z-index: 0;
+  }
+  .secondImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 25vh !important;
+    margin-left: -15vw !important;
+    width: auto;
+    height: 35vh;
+  }
+  .topImage {
+    position: relative;
+    width: auto;
+    height: 25vh;
+    z-index: 2;
+    margin-top: 30vh !important;
+    margin-left: 130px !important;
+  }
 }
-.topImage {
-  position: relative;
-  z-index: 2;
-  margin-top: 650px;
-  margin-left: 150px;
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .baseImage {
+    position: absolute;
+    width: auto;
+    height: 50vh;
+    z-index: 0;
+  }
+  .secondImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 25vh !important;
+    margin-left: -15vw !important;
+    width: auto;
+    height: 35vh;
+  }
+  .topImage {
+    position: relative;
+    width: auto;
+    height: 25vh;
+    z-index: 2;
+    margin-top: 30vh !important;
+    margin-left: 130px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .baseImage {
+    position: absolute;
+    width: auto;
+    height: 50vh;
+    z-index: 0;
+  }
+  .secondImage {
+    position: absolute;
+    z-index: 1;
+    margin-top: 25vh !important;
+    margin-left: -15vw !important;
+    width: auto;
+    height: 35vh;
+  }
+  .topImage {
+    position: relative;
+    width: auto;
+    height: 25vh;
+    z-index: 2;
+    margin-top: 30vh !important;
+    margin-left: 130px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .baseImage {
+    position: absolute;
+    z-index: 0;
+  }
+  .secondImage {
+    position: absolute !important;
+    z-index: 1;
+    margin-top: 500px !important;
+    margin-left: -100px;
+  }
+  .topImage {
+    position: relative;
+    z-index: 2;
+    margin-top: 650px !important;
+    margin-left: 150px !important;
+  }
 }

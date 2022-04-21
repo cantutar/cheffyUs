@@ -1,9 +1,12 @@
+import RoomCard from "../../components/RoomCard/RoomCard";
 import Wrapper from "../../components/Wrapper/Wrapper";
+
+import classes from "./Room.module.css";
 
 export default function Room(props) {
   return (
     <>
-      <Wrapper top={300}>
+      <Wrapper top={250}>
         <div className="container">
           <div className="row">
             <div className="col-md-4">
@@ -41,6 +44,23 @@ export default function Room(props) {
               </p>
             </div>
           </div>
+          <Wrapper top={200}>
+            <div className="row">
+              <RoomCard cardImage={classes.cardImage} />
+              <RoomCard cardImage={classes.cardImage} />
+              <RoomCard cardImage={classes.cardImage} />
+            </div>
+            <div className="row pt-5 ">
+              <div className="d-flex justify-content-center">
+                <a
+                  href="http://"
+                  className="btn btn-outline-secondary btn-lg mx-auto"
+                >
+                  Explorer More Options
+                </a>
+              </div>
+            </div>
+          </Wrapper>
         </div>
       </Wrapper>
     </>

@@ -28,7 +28,7 @@ function About(props) {
                 Learn More about it <i className="fa fa-arrow-right" />
               </a>
             </div>
-            <div className="col-md-6">
+            <div className="col-lg-6 col-md-12">
               <img
                 src="https://via.placeholder.com/700x800"
                 alt=""

@@ -1,0 +1,5 @@
+.cardImage {
+  width: auto;
+  max-height: 300px;
+  background-size: cover;
+}

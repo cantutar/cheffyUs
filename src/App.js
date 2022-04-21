@@ -3,7 +3,7 @@ import Navi from "./components/Navbar/Navi";
 import About from "./Sections/About/About";
 import Explore from "./Sections/Explore/Explore";
 import Hero from "./Sections/Hero/Hero";
-import Room from "./Sections/Rooms/Rooom";
+import Room from "./Sections/Rooms/Room";
 
 //TODO UPGRADE ICONS TO 6
 
